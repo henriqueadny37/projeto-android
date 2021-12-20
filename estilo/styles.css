@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: #c5ebd6
+    var(--font-destaque)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Henny+Penny&display=swap');
+
+@font-face{
+    font-family: 'Android';
+    src: url(../fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+}
+
+:root{
+   --cor0: #c5ebd6;
+   --cor1: #83e1ed;
+   --cor2: #3ddc84;
+   --cor3: #2fa866;
+   --cor4: #1a5c37;
+   --cor5: #063d1e;
+
+   --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+   --font-destaque: 'Bebas Neue', cursive;
+   --fonte-android: 'Android', cursive;
+}
+header h1{
+    color: var(--cor3);
+    font-family: var(--font-destaque);
+    
+}
+main h1{
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+}
+main h2{
+    font-family: var(--fonte-android);
+}
